@@ -1,5 +1,5 @@
 defmodule Display do
-   @charmap  System.get_env("charmap") || "/Users/leiding/printPlay/HZK16"
+   @charmap  System.get_env("charmap")
 
    def display(char) do
       charcode = getCharcode(char, @charmap)
